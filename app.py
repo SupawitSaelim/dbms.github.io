@@ -17,7 +17,7 @@ def verifyAndRenderRespective():
 	password = request.form['password']
 
 	try:
-		if username == 'cashier' and password == 'cashier123':
+		if username == 'supawit' and password == 'Oat0811609596':
 
 			res = runQuery('call delete_old()')
 			return render_template('cashier.html')
