@@ -9,11 +9,11 @@
 body{
 	font-family: 'productreg';
 	color: #FFFFFF;
-	background-image: url(pic/chairs.jpg);
-	/* Full height */
+	background-image: url(pic/chairs.jpg);/* ที่ใส่รูปbg*/
+	/* ขนาด */
 	height: 100%;
 
-	/* Center and scale the image nicely */
+	/* ปรับตำแหน่งและขนาด */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
