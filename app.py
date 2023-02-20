@@ -20,7 +20,7 @@ def verifyAndRenderRespective():
 		if username == 'supawit' and password == '1234':
 
 			res = runQuery('call delete_old()')
-			return render_template('test.html')
+			return render_template('cashier.html')
 
 		elif username == 'sonparun' and password == '1234':
 
