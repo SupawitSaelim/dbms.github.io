@@ -26,17 +26,17 @@ def verifyAndRenderRespective():
 		elif username == 'sonparun' and password == '1234':
 
 			res = runQuery('call delete_old()')
-			return render_template('test.html')
+			return render_template('cashier.html')
 
 		elif username == 'suphachai' and password == '1234':
 
 			res = runQuery('call delete_old()')
-			return render_template('test.html')
+			return render_template('cashier.html')
 
 		elif username == 'naphat' and password == '1234':
 
 			res = runQuery('call delete_old()')
-			return render_template('test.html')
+			return render_template('cashier.html')
 
 		elif username == 'manager' and password == 'admin':
 
