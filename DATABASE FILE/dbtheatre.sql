@@ -55,7 +55,8 @@ DELIMITER ;
 CREATE TABLE `booked_tickets` (
   `ticket_no` int(11) NOT NULL,
   `show_id` int(11) NOT NULL,
-  `seat_no` int(11) DEFAULT NULL
+  `seat_no` int(11) DEFAULT NULL,
+  `booked_by` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -221,7 +222,8 @@ INSERT INTO `types` (`movie_id`, `type1`, `type2`, `type3`) VALUES
 --
 ALTER TABLE `booked_tickets`
   ADD PRIMARY KEY (`ticket_no`,`show_id`),
-  ADD KEY `show_id` (`show_id`);
+  ADD KEY `show_id` (`show_id`),
+  ADD KEY `booked_by` (`booked_by`);
 
 --
 -- Indexes for table `halls`
