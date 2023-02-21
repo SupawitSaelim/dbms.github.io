@@ -10,12 +10,13 @@ app = Flask(__name__)
 def renderLoginPage():
     return render_template('login.html')
 
-
+officer = ''
 @app.route('/login', methods = ['POST'])
 def verifyAndRenderRespective():
 	username = request.form['username']
 	password = request.form['password']
-
+	global officer
+	officer = username
 	try:
 		if username == 'supawit' and password == '1234':
 
@@ -146,27 +147,29 @@ def getPriceForClass():
 	<button onclick="confirmBooking()" class="btn-warning">Confirm Booking</button>'
 
 
-@app.route('/insertBooking', methods = ['POST'])
+@app.route('/insertBooking', methods=['POST'])
 def createBooking():
-	showID = request.form['showID']
-	seatNo = request.form['seatNo']
-	seatClass = request.form['seatClass']
+    global officer
+    showID = request.form['showID']
+    seatNo = request.form['seatNo']
+    seatClass = request.form['seatClass']
 
-	if seatClass == 'gold':
-		seatNo = int(seatNo) + 1000
+    if seatClass == 'gold':
+        seatNo = int(seatNo) + 1000
 
-	ticketNo = 0
-	res = None
+    ticketNo = 0
+    res = None
 
-	while res != []:
-		ticketNo = randint(0, 2147483646)
-		res = runQuery("SELECT ticket_no FROM booked_tickets WHERE ticket_no = "+str(ticketNo))
-	
-	res = runQuery("INSERT INTO booked_tickets VALUES("+str(ticketNo)+","+showID+","+str(seatNo)+")")
+    while res != []:
+        ticketNo = randint(0, 2147483646)
+        res = runQuery("SELECT ticket_no FROM booked_tickets WHERE ticket_no = " + str(ticketNo))
 
-	if res == []:
-		return '<h5>Ticket Has Been Booked Successfully!</h5>\
-		<h6>Ticket Number: '+str(ticketNo)+'</h6>'
+    res = runQuery("INSERT INTO booked_tickets VALUES(" + str(ticketNo) + ", " + showID + ", " + str(seatNo) + ", '" + officer + "')")
+
+    if res == []:
+        return '<h5>Ticket Has Been Booked Successfully!</h5>\
+        <h6>Ticket Number: ' + str(ticketNo) + '</h6><br><h6>Booked by: ' + str(officer) + '</h6>'
+
 
 
 # Routes for manager
@@ -193,17 +196,20 @@ def getShowsOnDate():
 def getBookedTickets():
 	showID = request.form['showID']
 
-	res = runQuery("SELECT ticket_no,seat_no FROM booked_tickets WHERE show_id = "+showID+" order by seat_no")
+	res = runQuery("SELECT ticket_no, seat_no, booked_by FROM booked_tickets WHERE show_id = "+showID+" order by seat_no")
 
 	if res == []:
 		return '<h5>No Bookings!!</h5>'
 
 	tickets = []
-	for i in res:
-		if i[1] > 1000:
-			tickets.append([i[0], i[1] - 1000, 'Gold'])
+	tickets = []
+	for ticket in res:
+		if ticket[1] > 1000:
+			ticket_type = 'Gold'
 		else:
-			tickets.append([i[0], i[1], 'Standard'])
+			ticket_type = 'Standard'
+		tickets.append([ticket[0], ticket[1] % 1000, ticket_type, ticket[2]])
+
 
 	return render_template('bookedtickets.html', tickets = tickets)
 
