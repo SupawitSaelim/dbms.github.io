@@ -1,8 +1,8 @@
-<h4>Tickets Booked For Show</h4>
 {% for ticket in tickets %}
 <div class="ticket">
     <h5>Ticket Number: {{ ticket[0] }}</h5>
     <h6>Seat Number: {{ ticket[1] }} / {{ ticket[2] }}</h6>
     <p>Booked By: {{ ticket[3] }}</p>
+    <p>Price: {{ ticket[4] }}</p>
 </div>
 {% endfor %}
