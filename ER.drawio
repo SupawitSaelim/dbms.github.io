@@ -1,403 +1,394 @@
 <mxfile host="65bd71144e">
     <diagram id="GzE5BmRNaT_6fZG82HUJ" name="Page-1">
-        <mxGraphModel dx="784" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1040" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="127" style="edgeStyle=none;html=1;entryX=0.122;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="89" target="126">
+                <mxCell id="127" style="edgeStyle=none;html=1;entryX=0.122;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="89" target="126" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="239.9799999999999" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=none;html=1;entryX=0.286;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="89" target="118">
+                <mxCell id="146" style="edgeStyle=none;html=1;entryX=0.286;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="89" target="118" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="การจองหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="89" value="การจองหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="195" y="290" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="252" style="edgeStyle=none;html=1;entryX=0.355;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="92" target="89">
+                <mxCell id="252" style="edgeStyle=none;html=1;entryX=0.355;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="92" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="ID รอบฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="92" value="ID รอบฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="168.75" y="235" width="46.25" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="254" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="93" target="89">
+                <mxCell id="254" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="93" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="&lt;u&gt;ID ตั๋ว&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="93" value="&lt;u&gt;ID ตั๋ว&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="120" y="255" width="42.5" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="251" style="edgeStyle=none;html=1;entryX=0.413;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="97" target="89">
+                <mxCell id="251" style="edgeStyle=none;html=1;entryX=0.413;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="97" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="เลขที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="97" value="เลขที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="190" y="335" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="253" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="101" target="89">
+                <mxCell id="253" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="101" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="ID พนังงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="101" value="ID พนังงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="128.75" y="310" width="51.25" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" style="edgeStyle=none;html=1;entryX=0.309;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="105" target="167">
+                <mxCell id="169" style="edgeStyle=none;html=1;entryX=0.309;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="105" target="167" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" style="edgeStyle=none;html=1;entryX=0.36;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="105" target="184">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="รอบฉายหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="105" value="รอบฉายหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="402.5" y="400" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="106" target="105">
+                <mxCell id="107" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="106" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="&lt;u&gt;ID รอบฉาย&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="106" value="&lt;u&gt;ID รอบฉาย&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="332.5" y="340" width="45" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="109" target="105">
+                <mxCell id="170" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="109" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="ID หนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="109" value="ID หนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="530" y="405" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" style="edgeStyle=none;html=1;entryX=0.124;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="111" target="105">
+                <mxCell id="148" style="edgeStyle=none;html=1;entryX=0.124;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="111" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="111" value="ID โรงฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="111" value="ID โรงฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="387.5" y="340" width="45" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="115" target="105">
+                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="115" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="355" y="465" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="115" value="&amp;nbsp;ID ประเภท หนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="115" value="&amp;nbsp;ID ประเภท หนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="315" y="405" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="116" target="105">
+                <mxCell id="117" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="116" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="ความยาวหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="116" value="ความยาวหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="355" y="460" width="55" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.823;exitY=0.71;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" edge="1" parent="1" source="118" target="105">
+                <mxCell id="145" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.823;exitY=0.71;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" parent="1" source="118" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="118" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="265" y="360" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" style="edgeStyle=none;html=1;entryX=0.45;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="120" target="105">
+                <mxCell id="171" style="edgeStyle=none;html=1;entryX=0.45;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="120" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="วันที่ฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="120" value="วันที่ฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="435" y="480" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="172" style="edgeStyle=none;html=1;entryX=0.924;entryY=0.999;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="121" target="105">
+                <mxCell id="172" style="edgeStyle=none;html=1;entryX=0.924;entryY=0.999;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="121" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="ID ราคา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="121" value="ID ราคา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="490" y="440" width="40" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="126" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="262.5" y="245" width="55" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=0.717;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="128" target="126">
+                <mxCell id="147" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=0.717;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="128" target="126" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="310" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="150" style="edgeStyle=none;html=1;entryX=0.326;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="128" target="149">
+                <mxCell id="150" style="edgeStyle=none;html=1;entryX=0.326;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="128" target="149" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="249" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="128" target="143">
+                <mxCell id="249" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="128" target="143" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="261" style="edgeStyle=none;shape=link;html=1;entryX=0.214;entryY=0.752;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="128" target="260">
+                <mxCell id="261" style="edgeStyle=none;shape=link;html=1;entryX=0.214;entryY=0.752;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="128" target="260" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="128" value="พนักงาน" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="128" value="พนักงาน" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="337.5" y="210" width="85" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="248" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="131" target="128">
+                <mxCell id="248" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="131" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="&lt;u&gt;ID พนังงาน&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="131" value="&lt;u&gt;ID พนังงาน&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="280" y="170" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="246" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="133" target="128">
+                <mxCell id="246" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="133" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="ชื่อผู้ใช้" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="133" value="ชื่อผู้ใช้" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="352.5" y="160" width="35" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="247" style="edgeStyle=none;html=1;entryX=0.198;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="135" target="128">
+                <mxCell id="247" style="edgeStyle=none;html=1;entryX=0.198;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="135" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="135" value="รหัสผ่าน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="135" value="รหัสผ่าน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="300" y="130" width="55" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="245" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="141" target="128">
+                <mxCell id="245" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="141" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="วันเวลาที่ลงข้อมูล" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="141" value="วันเวลาที่ลงข้อมูล" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="390" y="130" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="ID ประเภทพนักงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="143" value="ID ประเภทพนักงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="445" y="227.5" width="60" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=none;html=1;entryX=0.564;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="149" target="105">
+                <mxCell id="151" style="edgeStyle=none;html=1;entryX=0.564;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="149" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="149" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="410" y="280" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="152" target="105">
+                <mxCell id="173" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="152" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="ID พนักงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="152" value="ID พนักงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="460" y="330" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" style="edgeStyle=none;html=1;entryX=0.393;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="154" target="165">
+                <mxCell id="166" style="edgeStyle=none;html=1;entryX=0.393;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="154" target="165" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" style="edgeStyle=none;html=1;entryX=0.754;entryY=0.24;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="154" target="167">
+                <mxCell id="168" style="edgeStyle=none;html=1;entryX=0.754;entryY=0.24;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="154" target="167" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="หนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="154" value="หนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="600" y="300" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="156" target="154">
+                <mxCell id="160" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="156" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="&lt;u&gt;ID หนัง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="156" value="&lt;u&gt;ID หนัง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="640" y="240" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" style="edgeStyle=none;html=1;entryX=0.36;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="158" target="154">
+                <mxCell id="159" style="edgeStyle=none;html=1;entryX=0.36;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="158" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="ชื่อหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="158" value="ชื่อหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="580" y="240" width="50" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="161" target="154">
+                <mxCell id="162" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="161" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="161" value="ความยาวหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="161" value="ความยาวหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="700" y="255" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="163" target="154">
+                <mxCell id="164" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="163" target="154" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="730" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="163" value="ภาษา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="163" value="ภาษา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="685" y="315" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" value="วันที่เริ่มและ เลิกฉายหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="165" value="วันที่เริ่มและ เลิกฉายหนัง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="630" y="355" width="70" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="167" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="560" y="360" width="45" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" style="edgeStyle=none;html=1;entryX=0.714;entryY=0.82;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="174" target="184">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="174" value="ราคา" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="174" value="ราคา" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="600" y="600" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" style="edgeStyle=none;html=1;entryX=0.663;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="175" target="174">
+                <mxCell id="176" style="edgeStyle=none;html=1;entryX=0.663;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="175" target="174" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="&lt;u&gt;ID ราคา&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;direction=south;" vertex="1" parent="1">
+                <mxCell id="175" value="&lt;u&gt;ID ราคา&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;direction=south;" parent="1" vertex="1">
                     <mxGeometry x="630" y="540" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" style="edgeStyle=none;html=1;entryX=0.926;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="177" target="174">
+                <mxCell id="178" style="edgeStyle=none;html=1;entryX=0.926;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="177" target="174" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="วัน จ-อา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="177" value="วัน จ-อา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="690" y="540" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="182" target="174">
+                <mxCell id="183" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="182" target="174" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" value="ID ประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="182" value="ID ประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="720" y="580" width="60" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="485" y="520" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="187" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="495" y="490" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="188" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="530" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="189" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="189" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="600" y="355" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="190" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="540" y="380" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="192" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="295" y="375" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="193" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="250" y="340" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="194" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="395" y="260" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="195" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="305" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="196" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="196" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="287.5" y="220" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="197" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="235" y="247.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="214" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="200" target="213">
+                <mxCell id="214" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="200" target="213" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="225" style="edgeStyle=none;html=1;entryX=0.317;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="200" target="224">
+                <mxCell id="225" style="edgeStyle=none;html=1;entryX=0.317;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="200" target="224" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="200" value="โรงฉาย" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="200" value="โรงฉาย" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="340" y="580" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="208" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="201" target="200">
+                <mxCell id="208" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="201" target="200" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="201" value="&lt;u&gt;ID โรงฉาย&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="201" value="&lt;u&gt;ID โรงฉาย&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="275" y="610" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="207" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="203" target="200">
+                <mxCell id="207" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="203" target="200" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="203" value="ลำดับโรงฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="203" value="ลำดับโรงฉาย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="332.5" y="630" width="57.5" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="219" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="205" target="200">
+                <mxCell id="219" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="205" target="200" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" value="ID ประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="205" value="ID ประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="432.5" y="560" width="60" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="211" style="edgeStyle=none;html=1;entryX=0.876;entryY=1.103;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="210" target="174">
+                <mxCell id="211" style="edgeStyle=none;html=1;entryX=0.876;entryY=1.103;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="210" target="174" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="210" value="ราคาแต่ละวัน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="210" value="ราคาแต่ละวัน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="685" y="640" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="215" style="edgeStyle=none;html=1;entryX=0.365;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="213" target="105">
+                <mxCell id="215" style="edgeStyle=none;html=1;entryX=0.365;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="213" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="213" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="213" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="375" y="510" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="216" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="216" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="387.5" y="540" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="217" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="217" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="405" y="485" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="226" style="edgeStyle=none;html=1;entryX=0.814;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="218" target="224">
+                <mxCell id="226" style="edgeStyle=none;html=1;entryX=0.814;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="218" target="224" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" style="edgeStyle=none;html=1;entryX=0.204;entryY=0.751;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="218" target="229">
+                <mxCell id="230" style="edgeStyle=none;html=1;entryX=0.204;entryY=0.751;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="218" target="229" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="218" value="ประเภทที่นั่ง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="218" value="ประเภทที่นั่ง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="485" y="660" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="222" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="220" target="218">
+                <mxCell id="222" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="220" target="218" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="220" value="ชื่อประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="220" value="ชื่อประเภทที่นั่ง" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="460" y="702.5" width="60" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="223" style="edgeStyle=none;html=1;entryX=0.921;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="221" target="218">
+                <mxCell id="223" style="edgeStyle=none;html=1;entryX=0.921;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="221" target="218" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="221" value="&lt;u&gt;ID ประเภทที่นั่ง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="221" value="&lt;u&gt;ID ประเภทที่นั่ง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="535" y="700" width="60" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="224" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="224" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="420" y="630" width="40" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="227" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="227" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="415" y="605" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="228" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="228" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="455" y="625" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="231" style="edgeStyle=none;html=1;entryX=0.375;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="229" target="174">
+                <mxCell id="231" style="edgeStyle=none;html=1;entryX=0.375;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;shape=link;" parent="1" source="229" target="174" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="229" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="229" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="605" y="652.5" width="40" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="232" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="600" y="670" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="233" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="635" y="640" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" style="edgeStyle=none;html=1;entryX=0.247;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="234" target="235">
+                <mxCell id="237" style="edgeStyle=none;html=1;entryX=0.247;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="234" target="235" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="234" value="ประเภทหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="234" value="ประเภทหนัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="180" y="520" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.816;exitY=0.241;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" edge="1" parent="1" source="235" target="105">
+                <mxCell id="236" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.816;exitY=0.241;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" parent="1" source="235" target="105" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="235" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="277.5" y="480" width="47.5" height="32.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="238" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="250" y="481.25" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="239" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="305" y="455" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="241" style="edgeStyle=none;html=1;entryX=0.621;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.359;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="240" target="234">
+                <mxCell id="241" style="edgeStyle=none;html=1;entryX=0.621;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.359;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="240" target="234" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="240" value="&lt;u&gt;&amp;nbsp;ID ประเภท หนัง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="240" value="&lt;u&gt;&amp;nbsp;ID ประเภท หนัง&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="210" y="440" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="243" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.771;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="242" target="234">
+                <mxCell id="243" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.771;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="242" target="234" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="242" value="ชื่อประเภท" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="242" value="ชื่อประเภท" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="147.5" y="465" width="52.5" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="259" value="ประเภทพนักงาน" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="259" value="ประเภทพนักงาน" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="567.5" y="145" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="262" style="edgeStyle=none;shape=link;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.754;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="260" target="259">
+                <mxCell id="262" style="edgeStyle=none;shape=link;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.754;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="260" target="259" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="260" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="260" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="475" y="165" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="263" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="263" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="450" y="165" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="264" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="264" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="505" y="145" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" style="edgeStyle=none;html=1;entryX=0.044;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="265" target="259">
+                <mxCell id="267" style="edgeStyle=none;html=1;entryX=0.044;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="265" target="259" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="265" value="&lt;u&gt;ID ประเภทพนักงาน&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="265" value="&lt;u&gt;ID ประเภทพนักงาน&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="510" y="75" width="60" height="55" as="geometry"/>
                 </mxCell>
-                <mxCell id="268" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="266" target="259">
+                <mxCell id="268" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="266" target="259" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="266" value="ชื่อประเภท" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="266" value="ชื่อประเภท" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="580" y="90" width="65" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="269" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="ราคา" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="283.75" y="282.5" width="42.5" height="45" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
