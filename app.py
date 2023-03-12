@@ -123,7 +123,7 @@ def getSeating():
 			standardSeats[ i[0] - 1 ][1] = 'disabled'
 
 	return render_template('seating.html', goldSeats = goldSeats, standardSeats = standardSeats)
-
+priceby = 0
 
 @app.route('/getPrice', methods = ['POST'])
 def getPriceForClass():
@@ -143,6 +143,9 @@ def getPriceForClass():
 	if seatClass == 'gold':
 		price = price * 1.5
 
+	global priceby
+	priceby = int(price)
+
 	return '<h5>Ticket Price: $ '+str(price)+'</h5>\
 	<button onclick="confirmBooking()" class="btn-warning">Confirm Booking</button>'
 
@@ -150,6 +153,7 @@ def getPriceForClass():
 @app.route('/insertBooking', methods=['POST'])
 def createBooking():
     global officer
+    global priceby
     showID = request.form['showID']
     seatNo = request.form['seatNo']
     seatClass = request.form['seatClass']
@@ -164,11 +168,10 @@ def createBooking():
         ticketNo = randint(0, 2147483646)
         res = runQuery("SELECT ticket_no FROM booked_tickets WHERE ticket_no = " + str(ticketNo))
 
-    res = runQuery("INSERT INTO booked_tickets VALUES(" + str(ticketNo) + ", " + showID + ", " + str(seatNo) + ", '" + officer + "')")
-
+    res = runQuery("INSERT INTO booked_tickets VALUES(" + str(ticketNo) + ", " + showID + ", " + str(seatNo) + ", '" + officer + "', " + str(priceby) + ")")
     if res == []:
         return '<h5>Ticket Has Been Booked Successfully!</h5>\
-        <h6>Ticket Number: ' + str(ticketNo) + '</h6><br><h6>Booked by: ' + str(officer) + '</h6>'
+        <h6>Ticket Number: ' + str(ticketNo) + '</h6><br><h6>Booked by: ' + str(officer) + '</h6><br><h6>Price: ' + str(priceby) + '</h6>'
 
 
 
@@ -194,24 +197,22 @@ def getShowsOnDate():
 
 @app.route('/getBookedWithShowID', methods = ['POST'])
 def getBookedTickets():
-	showID = request.form['showID']
+    showID = request.form['showID']
+    
+    res = runQuery("SELECT ticket_no, seat_no, booked_by, price FROM booked_tickets WHERE show_id = "+showID+" order by seat_no")
+    if res == []:
+        return '<h5>No Bookings!!</h5>'
 
-	res = runQuery("SELECT ticket_no, seat_no, booked_by FROM booked_tickets WHERE show_id = "+showID+" order by seat_no")
+    tickets = []
+    for ticket in res:
+        if ticket[1] > 1000:
+            ticket_type = 'Gold'
+        else:
+            ticket_type = 'Standard'
+        tickets.append([ticket[0], ticket[1] % 1000, ticket_type, ticket[2], ticket[3]])
 
-	if res == []:
-		return '<h5>No Bookings!!</h5>'
+    return render_template('bookedtickets.html', tickets = tickets)
 
-	tickets = []
-	tickets = []
-	for ticket in res:
-		if ticket[1] > 1000:
-			ticket_type = 'Gold'
-		else:
-			ticket_type = 'Standard'
-		tickets.append([ticket[0], ticket[1] % 1000, ticket_type, ticket[2]])
-
-
-	return render_template('bookedtickets.html', tickets = tickets)
 
 
 @app.route('/fetchMovieInsertForm', methods = ['GET'])
